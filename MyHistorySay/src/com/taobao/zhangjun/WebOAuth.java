@@ -10,8 +10,8 @@ public class WebOAuth {
 
 	public static RequestToken request(String backUrl) {
 		try {
-			System.setProperty("weibo4j.oauth.consumerKey", Weibo.CONSUMER_KEY);
-			System.setProperty("weibo4j.oauth.consumerSecret",Weibo.CONSUMER_SECRET);
+			System.setProperty("weibo4j.oauth.consumerKey", AppInfo.CONSUMER_KEY);
+			System.setProperty("weibo4j.oauth.consumerSecret",AppInfo.CONSUMER_SECRET);
 			
 			Weibo weibo = new Weibo();
 			RequestToken requestToken = weibo.getOAuthRequestToken(backUrl);
