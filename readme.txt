@@ -1,1 +1,1 @@
-MyHistorySay is subproject for GAE
+MyHistorySay is subproject for GAE!
